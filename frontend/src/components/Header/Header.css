@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  border: 5px solid tomato;
+}
+
+.header-text {
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.main-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 9rem;
+  font-family: Arial, sans-serif; /* Or any clean font like 'Poppins', 'Montserrat' */
+  color: transparent;
+  /* -webkit-text-stroke: 2px rgb(54, 54, 54); */
+  position: relative;
+  color: tomato;
+}
+
+.main-title span {
+  display: inline-block;
+  position: relative;
+}
+
+.leaf-icon {
+  position: absolute;
+  font-size: 2rem;
+  top: 0.5rem;
+  right: -1.25rem;
+  color: #22c55e;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-top: -1rem;
+  /* margin-top: 1rem; */
+}
+
+.description {
+  color: tomato;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.2rem 0 1.5rem 0;
+}
+
+.order-button-container {
+  display: inline-flex;
+  align-items: center;
+  /* background-color: #22c55e; */
+  background-color: tomato;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.order-button-container button {
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.order-button-container:hover {
+  transform: scale(1.1);
+}
+
+.image-section {
+  width: 45%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image-section img {
+  max-width: 100%;
+}
+
+.seedling-icon {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #15803d;
+  top: 1.25rem;
+  right: 5rem;
+}
+
+.spoon-icon {
+  position: absolute;
+  font-size: 5rem;
+  color: white;
+  bottom: 0;
+  right: 5rem;
+}
+
+
+
+
+
+
+.app-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.orange-background {
+  width: 150%;
+  height: 80%;
+  background-color: tomato;
+  /* Tailwind's orange-400 */
+  position: absolute;
+  right: 2.5rem;
+  transform: translateX(50%) rotate(-55deg);
+}
+
