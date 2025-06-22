@@ -1,0 +1,3 @@
+Pacakages ==> npm install express mongoose jsonwebtoken bcrypt cors dotenv body-parser multer sharp validator nodemon
+
+npm install stripe
