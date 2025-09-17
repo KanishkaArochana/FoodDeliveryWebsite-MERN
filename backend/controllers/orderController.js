@@ -95,6 +95,7 @@ const userOrders = async (req, res) => {
     }
 }
 
+
 // Listing orders for admin panel
 
 const listOrders = async (req,res) => {
@@ -122,5 +123,6 @@ const updateStatus = async (req,res) => {
         res.json({success:false, message:"Error"})
     }
 }
+
 
 export { placeOrder, verifyOrder, userOrders, listOrders, updateStatus };
